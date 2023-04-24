@@ -1,0 +1,76 @@
+﻿body {
+    background-color: #EBF4FA;
+    margin: 0 10%;
+    font-family: 'Urbanist';
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lilita One';
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-top: 30px;
+    color: #EBF4FA;
+    background-color: #151b54;
+    text-align: center;
+    line-height: 5;
+}
+
+
+h2 {
+    color: #151b54;
+    font-size: 1.5em;
+}
+
+h3 {
+    border-bottom: 2px solid #57b1dc;
+    margin-top: 30px;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Urbanist';
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-top: 0px;
+    color: #EBF4FA;
+    background-color: #1554;
+    text-align: center;
+    line-height: 3;
+}
+
+footer {
+    border-top: 1px solid #bf9de0;
+}
+
+a:focus, a:hover {
+    color: #151b54;
+    background-color: #bf9de0;
+}
+
+a:link {
+    color: darkblue;
+}
+
+a:visited {
+    color: #EBF4FA;
+}
+
+/* Animated Content Styling */
+h2 {
+    position: relative;
+    animation: slideInLeft 1s ease;
+    animation-duration: 1s;
+}
+/* Keyframe Animations */
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
